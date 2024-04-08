@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git "${https://github.com/nehadevharkar/SimpleAppPipeline.git}"
+                git '''${https://github.com/nehadevharkar/SimpleAppPipeline.git}'''
             }
         }
 
